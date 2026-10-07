@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Fraunces', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  --color-coffee-bg: #1C0D06;
+  --color-coffee-surface: #26130B;
+  --color-coffee-card: #2F180E;
+  --color-coffee-border: #4D2817;
+  --color-coffee-amber: #D9A773;
+  --color-coffee-gold: #E5B887;
+  --color-coffee-cream: #F7EBE1;
+  --color-coffee-muted: #D5BFA8;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #1C0D06;
+  color: #F7EBE1;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-serif);
+}
+
+/* Custom coffee scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1C0D06;
+}
+::-webkit-scrollbar-thumb {
+  background: #4D2817;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D9A773;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Brew & Bean Coffee",
+  "description": "Artisanal coffee crafted with passion. Explore specialty roasts, hand-poured lattes, cold brews, and fresh pastries at Brew & Bean Coffee.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
